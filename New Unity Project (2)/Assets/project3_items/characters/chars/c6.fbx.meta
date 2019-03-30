@@ -203,127 +203,127 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Body_Diffuse
-    second: {fileID: 2800000, guid: becbd646892d44def9f629da32c6c08b, type: 3}
+    second: {fileID: 2800000, guid: 4f5adfb556f674fc1bac033c4c1338ce, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Body_Gloss
-    second: {fileID: 2800000, guid: 5375cb642be55463aa1ab7d9527e4638, type: 3}
+    second: {fileID: 2800000, guid: dc97210b63c7a4e81a4d0d9ef3868c10, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Body_Normal
-    second: {fileID: 2800000, guid: 306b89cc62d81434c931979aa74f5c07, type: 3}
+    second: {fileID: 2800000, guid: 9ca3ed44f52e040cd814f9a1c8b32478, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Body_Opacity
-    second: {fileID: 2800000, guid: 1dfba7884f4404800a6dbc5c2b1187e0, type: 3}
+    second: {fileID: 2800000, guid: f44b6b4f3366e43308dee094d1dd3082, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Body_Specular
-    second: {fileID: 2800000, guid: 94ed7956412304885a60a460cd3fc64b, type: 3}
+    second: {fileID: 2800000, guid: 83ebb2ac01c044724a3d57f939b2f648, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Bottom_Diffuse
-    second: {fileID: 2800000, guid: 6fc5a1c54b2684c0a9ef4f545f109920, type: 3}
+    second: {fileID: 2800000, guid: 3987ed578605946dd843a049ac28b1c8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Bottom_Gloss
-    second: {fileID: 2800000, guid: 63a9ec1c9be0b46fea1fc0bc1f1ab7d2, type: 3}
+    second: {fileID: 2800000, guid: 0adaddc46d5ba486e89a9f34d4df2788, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Bottom_Normal
-    second: {fileID: 2800000, guid: f4e70e94c134f4e349a1b48f8a322ce0, type: 3}
+    second: {fileID: 2800000, guid: 572f3bd729705441a9b8c5b5896cebf1, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Bottom_Opacity
-    second: {fileID: 2800000, guid: 0154cbdf328f9403f9aeac29ce9b768c, type: 3}
+    second: {fileID: 2800000, guid: 14872a4c096a04954b1090ca18fd9c69, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Bottom_Specular
-    second: {fileID: 2800000, guid: 30986b778630b443dacd3ce57f35bb31, type: 3}
+    second: {fileID: 2800000, guid: fa366947a98bb4d5081cd4e059b493ff, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Hair_Diffuse
-    second: {fileID: 2800000, guid: e1afb7e8d5d8346319cc95bb08f0b352, type: 3}
+    second: {fileID: 2800000, guid: 212a40bab490744c59c19e3549adbbc6, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Hair_Gloss
-    second: {fileID: 2800000, guid: 64650f5d185f147e98f2b429b599afb6, type: 3}
+    second: {fileID: 2800000, guid: 3c542f2f542984ebd96b110d00e0c96e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Hair_Normal
-    second: {fileID: 2800000, guid: 4b79a8d3ada6f4d828d69611b0413749, type: 3}
+    second: {fileID: 2800000, guid: bb6723432ee1a4e7781574aaf27ba4ad, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Hair_Opacity
-    second: {fileID: 2800000, guid: d4725faa86c06477d86c0a352c3479c2, type: 3}
+    second: {fileID: 2800000, guid: 3bb95ab423210490baf7b20df4062354, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Hair_Specular
-    second: {fileID: 2800000, guid: 222fc6a2fb7e246ba8b9b2e2448f1c38, type: 3}
+    second: {fileID: 2800000, guid: 07e01c4c4c6de433da91be2858d5c0f0, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Shoes_Diffuse
-    second: {fileID: 2800000, guid: 328559d65fb73428c940ce7afad5e53f, type: 3}
+    second: {fileID: 2800000, guid: 42ff7ba5301f44464bf7e7eb744769ce, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Shoes_Gloss
-    second: {fileID: 2800000, guid: 62a56d08ac92b4c0c95fce29a096fd24, type: 3}
+    second: {fileID: 2800000, guid: 6468bdac514e3431fb0f730895e6e299, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Shoes_Normal
-    second: {fileID: 2800000, guid: ddd9749a47dc840d69b8994ee5fab4f9, type: 3}
+    second: {fileID: 2800000, guid: a54275f3c655b42dd977c6c9273ff93e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Shoes_Opacity
-    second: {fileID: 2800000, guid: 6c8607809c96f45f587c3b5176606312, type: 3}
+    second: {fileID: 2800000, guid: 6a413df5b8f2f4ba3bf28612dffa00a0, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Shoes_Specular
-    second: {fileID: 2800000, guid: e7dd6da0a5a9042acbcb715f29fe2b76, type: 3}
+    second: {fileID: 2800000, guid: 8657cd67e318b48a7a4e98609e64c279, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Top_Diffuse
-    second: {fileID: 2800000, guid: d5349b486527640d8b84a96557b7f859, type: 3}
+    second: {fileID: 2800000, guid: 7d378740af8cf4c9fb260a32a7048ff1, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Top_Gloss
-    second: {fileID: 2800000, guid: ff7b3799a154e4cd19fea53f0e298afa, type: 3}
+    second: {fileID: 2800000, guid: 639168952b0f641698960be8a983ac88, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Top_Normal
-    second: {fileID: 2800000, guid: c7cea0339aea24d15a405784865a9329, type: 3}
+    second: {fileID: 2800000, guid: 0d1ff5d43736e4496916aeed66b5d948, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Top_Opacity
-    second: {fileID: 2800000, guid: 634219ab319a34a579d4b9fbee051e8e, type: 3}
+    second: {fileID: 2800000, guid: c787d83f680dd40efad17cf3ad067860, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: c6_Top_Specular
-    second: {fileID: 2800000, guid: 40fcedb39a26f4d81abb7fc2cd1484c0, type: 3}
+    second: {fileID: 2800000, guid: bb47bf15019fb4d5381312e5a39e89fc, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
