@@ -158,7 +158,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
             }
 
-            if (m_IsGrounded)
+           /* if (m_IsGrounded)
             {
                 m_RigidBody.drag = 5f;
 
@@ -183,6 +183,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     StickToGroundHelper();
                 }
             }
+            */
+
             m_Jump = false;
         }
 
