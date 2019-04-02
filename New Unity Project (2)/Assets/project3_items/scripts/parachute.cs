@@ -10,11 +10,12 @@ public class parachute : MonoBehaviour
     public Transform parachuteMesh;
 
     public Rigidbody rb;
-
+    float initdrag; 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        initdrag = rb.drag; 
         parachuteMesh.GetComponent<Renderer>().enabled = false;
    
     }
@@ -27,9 +28,9 @@ public class parachute : MonoBehaviour
             rb.drag = 3f;
             parachuteMesh.GetComponent<Renderer>().enabled = true;
         }
-        if (Input.GetKeyDown(closeParachute))
+        else if (Input.GetKeyDown(closeParachute))
         {
-            rb.drag = 0f;
+            rb.drag =1;
             parachuteMesh.GetComponent<Renderer>().enabled = false;
         }
     }

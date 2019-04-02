@@ -16,7 +16,7 @@ public class Therapy_controls : MonoBehaviour
     public GameObject wall3R;
     public GameObject floor3;
 
-    public int corridor_width;
+    public int width;
 
     public GameObject blimp;
     public int blimp_height;
@@ -36,17 +36,18 @@ public class Therapy_controls : MonoBehaviour
         wall2_og_position = wall2L.transform.position;
         wall3_og_position = wall3L.transform.position;
 
-        max_distance_wall = floor2.GetComponent<Collider>().bounds.extents.z/8;
+        max_distance_wall = floor2.GetComponent<Collider>().bounds.extents.z/32;
 
-        max_distance_wall_long = floor1.GetComponent<Collider>().bounds.extents.x / 8; 
+        max_distance_wall_long = floor1.GetComponent<Collider>().bounds.extents.x/50; 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(corridor_width > 10)
+        int corridor_width = 10 +width; 
+        if(corridor_width > 12)
         {
-            corridor_width = 10; 
+            corridor_width = 12; 
         }
         if(corridor_width < 1)
         {
