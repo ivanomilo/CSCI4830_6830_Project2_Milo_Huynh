@@ -263,13 +263,18 @@ public class OVRPlayerController : MonoBehaviour
 		moveDirection += MoveThrottle * SimulationRate * Time.deltaTime;
 
 		// Gravity
+        
 		if (Controller.isGrounded && FallSpeed <= 0)
 			FallSpeed = ((Physics.gravity.y * (GravityModifier * 0.002f)));
+        else if (OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger) != 0)
+        {
+            FallSpeed += ((Physics.gravity.y * (0.01f * 0.002f)) * SimulationRate * Time.deltaTime);
+        }
 		else
 			FallSpeed += ((Physics.gravity.y * (GravityModifier * 0.002f)) * SimulationRate * Time.deltaTime);
-
+            
 		moveDirection.y += FallSpeed * SimulationRate * Time.deltaTime;
-
+        
 
 		if (Controller.isGrounded && MoveThrottle.y <= transform.lossyScale.y * 0.001f)
 		{
@@ -300,11 +305,10 @@ public class OVRPlayerController : MonoBehaviour
 
 	public virtual void UpdateMovement()
 	{
-		if (HaltUpdateMovement)
-			return;
+		////if (HaltUpdateMovement)
+			//return;
 
-		if (EnableLinearMovement)
-		{
+		
 			bool moveForward = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
 			bool moveLeft = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
 			bool moveRight = Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow);
@@ -332,8 +336,8 @@ public class OVRPlayerController : MonoBehaviour
 				MoveScale = 0.70710678f;
 
 			// No positional movement if we are in the air
-			if (!Controller.isGrounded)
-				MoveScale = 0.0f;
+			 if (!Controller.isGrounded)
+				MoveScale = 2.0f;
 
 			MoveScale *= SimulationRate * Time.deltaTime;
 
@@ -389,7 +393,7 @@ public class OVRPlayerController : MonoBehaviour
 			if (primaryAxis.x > 0.0f)
 				MoveThrottle += ort * (primaryAxis.x * transform.lossyScale.x * moveInfluence * BackAndSideDampen *
 									   Vector3.right);
-		}
+		
 
 		if (EnableRotation)
 		{

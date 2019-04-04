@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Parachute 1
+  - RigidBodyFPSController
+  - survey
+  - trig
+  - survey_selektah
   layers:
   - Default
   - TransparentFX
